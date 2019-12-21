@@ -1,0 +1,31 @@
+{
+	"expo": {
+		"name": "christmas",
+		"slug": "christmas",
+		"privacy": "public",
+		"sdkVersion": "36.0.0",
+		"platforms": [ "ios", "android" ],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [ "**/*" ],
+		"ios": {
+			"supportsTablet": true,
+			"config": {
+				"googleMapsApiKey": "AIzaSyAHhBaV-IqA-X6yC5bAg0wgrPPeePgg_-0"
+			}
+		},
+		"android": {
+			"package": "com.christmas.christmas",
+			"config": { "googleMaps": { "apiKey": "AIzaSyAHhBaV-IqA-X6yC5bAg0wgrPPeePgg_-0" } }
+		}
+	}
+}
